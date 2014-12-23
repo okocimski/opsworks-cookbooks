@@ -6,7 +6,7 @@
   DocumentRoot <%= @params[:docroot] %>
 
   <Directory <%= @params[:docroot] %>>
-    Options FollowSymLinks Indexes +Includes
+    Options FollowSymLinks
     AllowOverride All
     Order allow,deny
     Allow from all
